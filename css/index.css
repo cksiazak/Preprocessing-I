@@ -133,4 +133,35 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 13em;
+}
+header nav {
+  width: 35%;
+  display: inherit;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.2s;
+}
+header nav a:hover {
+  color: purple;
+  transform: scale(1.1);
+  text-shadow: 4px 4px 3px #aba8a8;
 }
