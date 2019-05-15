@@ -224,3 +224,34 @@ header nav a:hover {
   padding: 12px 20px;
   cursor: pointer;
 }
+.bottom-content {
+  padding: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+}
+.bottom-content .work-history {
+  width: 100%;
+}
+.bottom-content .work-history h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.bottom-content .work-history table {
+  width: 100%;
+  margin-top: 1rem;
+}
+.bottom-content .work-history table tr:nth-child(even) {
+  background-color: #eee;
+}
+.bottom-content .work-history table tr:nth-child(odd) {
+  background-color: #fff;
+}
+.bottom-content .work-history th,
+.bottom-content .work-history td {
+  border-top: 1px solid grey;
+  font-size: 2rem;
+  text-align: left;
+  padding: 1.5rem;
+}

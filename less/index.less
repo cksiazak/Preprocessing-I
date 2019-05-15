@@ -166,3 +166,38 @@ header {
 		cursor: pointer;
 	}
 }
+
+.bottom-content {
+	padding: 2rem 0rem;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: @documentfont;
+
+	.work-history {
+		width: 100%;
+
+		h2 {
+			font-size: 3rem;
+			.boldtext;
+		}
+
+		table {
+			width: 100%;
+			margin-top: 1rem;
+			
+			tr:nth-child(even) {
+				background-color: #eee;
+			}
+			tr:nth-child(odd) {
+				background-color: #fff;
+			}
+		}
+
+		th, td {
+			border-top: 1px solid grey;
+			font-size: 2rem;
+			text-align: left;
+			padding: 1.5rem;
+		}
+	}
+}
