@@ -138,14 +138,14 @@ body {
   font-size: 62.5%;
 }
 .container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 13em;
+  height: 10em;
 }
 header nav {
   width: 35%;
@@ -172,16 +172,55 @@ header nav a:hover {
   background: lightgrey;
 }
 .resume-intro .resume-box {
-  padding: 4rem;
+  padding: 2rem 3rem;
 }
 .resume-intro .resume-box .resume-name {
-  font-size: 3rem;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 2rem;
   border-bottom: 1px solid black;
 }
 .resume-intro .resume-box .resume-name h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   letter-spacing: 1px;
+}
+.resume-intro .resume-box .resume-name p {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+.resume-intro .resume-box .resume-second {
+  font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 2rem;
+}
+.contactform {
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  background: grey;
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-top: 2.5rem;
+  border-radius: 2rem;
+}
+.contactform label {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+.contactform input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+}
+.contactform #subject {
+  height: 10rem;
+}
+.contactform #submit {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
 }
