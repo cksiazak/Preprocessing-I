@@ -127,6 +127,8 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
+/* variables */
+/*mixins*/
 * {
   box-sizing: border-box;
 }
@@ -164,4 +166,22 @@ header nav a:hover {
   color: purple;
   transform: scale(1.1);
   text-shadow: 4px 4px 3px #aba8a8;
+}
+.resume-intro {
+  width: 100%;
+  background: lightgrey;
+}
+.resume-intro .resume-box {
+  padding: 4rem;
+}
+.resume-intro .resume-box .resume-name {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+}
+.resume-intro .resume-box .resume-name h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
