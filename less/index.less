@@ -135,9 +135,9 @@ header {
 }
 
 .contactform {
-	width: 50%;
+	width: 100%;
 	font-family: @documentfont;
-	background: @secondarycolor;
+	background: @maincolor;
 	font-size: 1.5rem;
 	padding: 2rem;
 	margin-top: 2.5rem;
@@ -145,7 +145,7 @@ header {
 
 	label {
 		.boldtext;
-		color: white;
+		color: @secondarycolor;
 	}
 
 	input {
@@ -170,16 +170,16 @@ header {
 .bottom-content {
 	padding: 2rem 0rem;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	font-family: @documentfont;
+
+	h2 {
+		font-size: 3rem;
+		.boldtext;
+	}
 
 	.work-history {
 		width: 100%;
-
-		h2 {
-			font-size: 3rem;
-			.boldtext;
-		}
 
 		table {
 			width: 100%;
@@ -199,5 +199,36 @@ header {
 			text-align: left;
 			padding: 1.5rem;
 		}
+
+		th {
+			font-weight: bold;
+		}
+	} //work history
+
+	.dualbox {
+	 	width: 100%;
+		padding-top: 2rem;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		.twoboxes {
+			width: 48%;
+		}
+		p {
+			font-size: 1.75rem;
+			line-height: 2.75rem;
+		}
 	}
+}
+
+footer {
+	font-family: @documentfont;
+	.boldtext;
+	background: @secondarycolor;
+	width: 100%;
+	padding: 2.5rem;
+	text-align: center;
+	font-size: 1rem;
+	color: white;
 }
