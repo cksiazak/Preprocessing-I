@@ -207,7 +207,7 @@ header nav a:hover {
   font-weight: bold;
   letter-spacing: 1px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .resume-intro .resume-box .resume-name h1 {
     font-size: 3rem;
     display: block;
@@ -218,7 +218,7 @@ header nav a:hover {
   padding-top: 1rem;
   font-size: 2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .resume-intro .resume-box .resume-name p {
     font-size: 1.5rem;
     display: block;
@@ -230,7 +230,7 @@ header nav a:hover {
   font-family: 'Roboto', sans-serif;
   padding-top: 2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .resume-intro .resume-box .resume-second {
     display: none;
   }
@@ -251,7 +251,7 @@ header nav a:hover {
   font-weight: bold;
   letter-spacing: 1px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .bottom-content h2 {
     font-size: 2rem;
   }
@@ -276,7 +276,7 @@ header nav a:hover {
   text-align: left;
   padding: 1.5rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .bottom-content .work-history th,
   .bottom-content .work-history td {
     font-size: 1.5rem;
